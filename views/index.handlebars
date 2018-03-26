@@ -2,6 +2,46 @@
 {{!-- use below as a template for burgers --}}
 
 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <img id="burger-image" src="/assets/img/cute_burger.jpg" alt="">
+            <h3 id="header-text">Eat Da Burger</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        {{!-- yet to be devoured --}}
+        <div class="col-md-6">
+           <ul>
+                {{#each burgers}}
+                    <li>
+                    <p>ID: {{this.id}}</p>
+                    <p>Burger: {{this.burger_name}}</p>
+                    </li>
+                {{/each}}
+            </ul>
+
+        </div>
+
+        {{!-- devoured burgers --}}
+        <div class="col-md-6">
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 {{!-- <h1>Cats!</h1>
 
 <h2>Cats that are not sleepy!</h2>

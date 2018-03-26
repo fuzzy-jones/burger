@@ -1,10 +1,13 @@
 var connection = require("./connection.js");
 
+// function selectAll()
 
-function selectAll()
+// function insertOne()
 
-function insertOne()
+// function updateOne()
 
-function updateOne()
+var orm = {
+
+}
 
 module.exports = orm;

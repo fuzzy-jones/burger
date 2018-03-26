@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../img/PORKYS_.TTF");
+}
+
+body {
+    background-color: #C62B29;
+}
+
+.container {
+    text-align: center;
+}
+
+#burger-image {
+    max-width: 25%;
+}
+
+#header-text {
+    font-family: myFirstFont;
+    color: black;
+    font-size: 60px;
+    margin-top: -15px;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: white;
+}
