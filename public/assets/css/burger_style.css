@@ -27,3 +27,15 @@ li {
     margin: 5px;
     background: white;
 }
+
+#add-burger-form {
+    color: black;
+  }
+
+li {
+    padding: 15px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: #FFDD85; */
+    border: 2px solid #FFDD85;
+}
