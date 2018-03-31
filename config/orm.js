@@ -33,7 +33,7 @@ function printQuestionMarks(num) {
     return arr.toString();
   }
   
-  // Object for all our SQL statement functions.
+  // Object for all  SQL statement functions.
   var orm = {
     all: function(tableInput, cb) {
       var queryString = "SELECT * FROM " + tableInput + ";";
@@ -64,7 +64,7 @@ function printQuestionMarks(num) {
         cb(result);
       });
     },
-    // An example of objColVals would be {name: panther, sleepy: true}
+    // An example of objColVals would be {name: cheeseburger, devoured: false}
     update: function(table, objColVals, condition, cb) {
       var queryString = "UPDATE " + table;
   

@@ -22,20 +22,29 @@ body {
     margin-top: -15px;
 }
 
-li {
-    padding: 5px;
-    margin: 5px;
-    background: white;
-}
 
 #add-burger-form {
     color: black;
   }
 
 li {
-    padding: 15px 10px 10px 10px;
+    padding: 10px;
     font-size: 18px;
     font-weight: bold;
     /* background-color: #FFDD85; */
-    border: 2px solid #FFDD85;
+    /* border: 2px solid #FFDD85; */
+    border: 2px solid black;
+    background: white;
+    margin-bottom: 5px;
+}
+
+p {
+    padding-top: 5px;
+}
+
+#devburger {
+    background-color: #FFDD85;
+    border: 2px solid #4DB24A;
+    float: right;
+    margin-right: 5px;
 }
