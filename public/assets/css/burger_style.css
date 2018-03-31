@@ -39,12 +39,21 @@ li {
 }
 
 p {
-    padding-top: 5px;
+    padding-top: 10px;
 }
+
 
 #devburger {
     background-color: #FFDD85;
     border: 2px solid #4DB24A;
     float: right;
     margin-right: 5px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+form {
+    font-weight: bold;
 }
