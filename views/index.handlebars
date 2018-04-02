@@ -18,12 +18,12 @@
         <div class="col-md-6">
            <ul>
                {{#each burgers}}
-                    <li>
-                    <p> 
-                        {{this.id}}. {{this.burger_name}}
-                        <button data-burgerid="{{this.id}}" data-newdevour="{{devoured}}" id="devburger">devour</button>
-                    </p>
-                    </li>
+                    {{#if devoured}}
+                        <li>
+                            {{this.id}}. {{this.burger_name}}
+                            <button data-burgerid="{{this.id}}" data-burgername="{{this.burger_name}}" data-burgerdevour="{{this.devoured}}" id="devburger">devour</button>
+                        </li>
+                    {{/if}}
                 {{/each}}
             </ul>
 
@@ -35,9 +35,7 @@
                 {{#each burgers}}
                     {{#unless devoured}}
                         <li>
-                        <p>
                             {{this.id}}. {{this.burger_name}}
-                        </p>
                         </li>
                     {{/unless}}
                 {{/each}}
@@ -63,5 +61,6 @@
     </div>
 
 </div>
+
 
 
