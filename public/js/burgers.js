@@ -15,16 +15,16 @@ $(function() {
         
         console.log(newDevourBurger)
         // send the put request
-        // $.ajax("/api/burgers/" + id, {
-        //     type: "PUT",
-        //     data: newDevourBurger
-        // }).then(
-        //     function() {
-        //     console.log("changed devour to", newDevour);
-        //     // Reload the page to get the updated list
-        //     location.reload();
-        //     }
-        // );
+        $.ajax("/api/burgers/" + id, {
+            type: "PUT",
+            data: newDevourBurger
+        }).then(
+            function() {
+            // console.log("changed devour to", newDevour);
+            // Reload the page to get the updated list
+            location.reload();
+            }
+        );
     });
 
 
